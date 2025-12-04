@@ -11,8 +11,8 @@ from datetime import datetime
 import uuid
 
 # SQLite接続
-from db_control.connect import engine as sqlite_engine
-from db_control.mymodels import (
+from backend.db_control.connect import engine as sqlite_engine
+from backend.db_control.mymodels import (
     Base as SQLiteBase,
     Customers as SQLiteCustomers,
     Items as SQLiteItems,
@@ -21,8 +21,8 @@ from db_control.mymodels import (
 )
 
 # MySQL接続
-from db_control.connect_MySQL import engine as mysql_engine
-from db_control.mymodels_MySQL import (
+from backend.db_control.connect_MySQL import engine as mysql_engine
+from backend.db_control.mymodels_MySQL import (
     Base as MySQLBase,
     Customers as MySQLCustomers,
     Items as MySQLItems,

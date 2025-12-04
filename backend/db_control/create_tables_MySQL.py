@@ -2,8 +2,8 @@ import os
 from pathlib import Path
 from sqlalchemy import inspect
 from sqlalchemy.orm import sessionmaker
-from db_control.mymodels_MySQL import Base, Customers
-from db_control.connect_MySQL import engine
+from backend.db_control.mymodels_MySQL import Base, Customers
+from backend.db_control.connect_MySQL import engine
 
 
 def init_db():
