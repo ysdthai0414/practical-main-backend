@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import requests
 import json
-from db_control import crud, mymodels_MySQL
+from backend.db_control import crud, mymodels_MySQL
 
 # MySQLのテーブル作成
 from db_control.create_tables_MySQL import init_db
