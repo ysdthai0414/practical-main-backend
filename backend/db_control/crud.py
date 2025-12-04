@@ -8,8 +8,8 @@ import sqlalchemy
 from sqlalchemy.orm import sessionmaker
 import json
 import pandas as pd
-from db_control.connect_MySQL import engine
-from db_control.mymodels_MySQL import Customers
+from backend.db_control.connect_MySQL import engine
+from backend.db_control.mymodels_MySQL import Customers
 
 
 def myinsert(mymodel, values):
