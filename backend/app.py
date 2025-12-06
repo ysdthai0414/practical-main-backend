@@ -6,7 +6,7 @@ import json
 from backend.db_control import crud, mymodels_MySQL
 
 # MySQLのテーブル作成
-from db_control.create_tables_MySQL import init_db
+#from backend.db_control.create_tables_MySQL import init_db
 
 # アプリケーション初期化時にテーブルを作成
 #init_db()
